@@ -1,3 +1,5 @@
+# not used
+
 import numpy as np
 
 # used to detect if fingers are bent/straight
@@ -18,6 +20,6 @@ def get_distance(landmark_list):
 
 
 '''
-- this numpy_util.py is used to convert raw hand landmark coordinates into meaningful
+- this numpy_util.py is used to convert raw hand landmark coordinates into
 geometric data and this is the foundation of gesture recognition logic
 '''
