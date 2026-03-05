@@ -6,12 +6,12 @@ import pyautogui
 import time
 import math
 
-# l oads the trained ML model file (TensorFlow Lite) and contains network to detect hands
+# loads the trained ML model file (TensorFlow Lite) and contains network to detect hands
 # pass in and configure model to detect up to 2 hands
 hand_model = python.BaseOptions(model_asset_path='hand_landmarker.task')
 options = vision.HandLandmarkerOptions(
     base_options=hand_model,
-    num_hands=2
+    num_hands=1
 )
 detector = vision.HandLandmarker.create_from_options(options)
 
