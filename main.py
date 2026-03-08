@@ -198,7 +198,7 @@ while True:
             cv2.putText(camera_frame, status_text, (10,50),
             cv2.FONT_HERSHEY_SIMPLEX, 1, (0,255,255), 2)
 
-    cv2.imshow("live video", camera_frame)
+    cv2.imshow("jcodes live hand cursor", camera_frame)
     if(cv2.waitKey(1)==ord('q')):
         break
 camera.release()
